@@ -1,25 +1,25 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Alim",
+  lastName: "Arief",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
-  avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
+  role: "Software Engineer",
+  avatar: "/images/avatar.png",
+  email: "alimarief97@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -30,12 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/alimarf",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
+    link: "https://www.linkedin.com/in/alimarief/",
   },
   {
     name: "X",
@@ -51,20 +51,22 @@ const social = [
 
 const home = {
   path: "/",
-  image: "/images/og/home.jpg",
+  image: "/images/og/home.png",
   label: "Home",
-  title: `${person.name}'s Portfolio`,
-  description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
-  featured: {
-    display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
-    href: "/work/building-once-ui-a-customizable-design-system",
-  },
+  title: `Journey – ${person.name}`,
+  description: `Portfolio website showcasing my work as a software engineer`,
+  headline: <>Turning complex problems into elegant software solutions</>,
+  // featured: {
+  //   display: false,
+  //   title: <>Latest project: <strong className="ml-4">IntelliOps Platform</strong></>,
+  //   href: "/work/intelliops-platform",
+  // },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      I'm a software engineer specializing in building reliable, scalable, and
+      user-focused applications.
+      <br /> I design and develop systems that align technical precision with
+      real-world usability.
     </>
   ),
 };
@@ -90,9 +92,9 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Software engineer based in Malang, focused on building efficient,
+        scalable, and intuitive digital systems that drive business value and
+        improve user engagement.
       </>
     ),
   },
@@ -101,42 +103,65 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "FeedbackASAP, Australia",
+        timeframe: "May 2024 - Present",
+        role: "Mobile Developer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
-          </>,
-          <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Develop the 'FeedbackASAP' mobile app in Flutter, utilizing
+            clean architecture, GetX, advanced logging, and data caching
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
+          // {
+          //   src: "/images/projects/project-01/cover-01.jpg",
+          //   alt: "Once UI Project",
+          //   width: 16,
+          //   height: 9,
+          // },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Roketin, Bandung",
+        timeframe: "Oct 2022 - Dec 2023",
+        role: "Mobile Developer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Develop 2 apps from scratch with my team & maintenance 2
+            apps by myself
           </>,
+        ],
+        images: [],
+      },
+      {
+        company: "PT Digimatika, Malang",
+        timeframe: "Oct 2021 - Aug 2022",
+        role: "Mobile Developer",
+        achievements: [
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Develop Dashboard AM/PM apps for telkom & maintenance app
+            Power Pertamina
           </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Illiyin Studio, Malang",
+        timeframe: "Mar 2021 - Sep 2021",
+        role: "Mobile Developer",
+        achievements: [<>Develop & maintaintenance Siginjai Masyarakat app</>],
+        images: [],
+      },
+      {
+        company: "Pind.ai - Jakarta",
+        timeframe: "Oct 2019 - Oct 2020",
+        role: "Software Engineer",
+        achievements: [
+          <>Develop Oree.id business system</>,
+          <>Develop Ngolshop.com</>,
+          <>Develop Web Buildr system E-commerce</>,
+          <>Develop table Menu API</>,
         ],
         images: [],
       },
@@ -147,12 +172,138 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University Bhinneka Nusantara",
+        description: (
+          <>
+            Focused on computer science fundamentals and practical software
+            engineering, including system design, algorithms, and software
+            development lifecycle.
+          </>
+        ),
       },
       {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "PetaniWeb",
+        description: (
+          <>
+            Hands-on experience building and deploying real-world applications,
+            with an emphasis on practical implementation, scalability, and
+            production readiness.
+          </>
+        ),
+      },
+    ],
+  },
+  // technical: {
+  //   display: true, // set to false to hide this section
+  //   title: "Technical skills",
+  //   skills: [
+  //     {
+  //       title: "Flutter",
+  //       description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+  //       // optional: leave the array empty if you don't want to display images
+  //       // images: [
+  //       //   {
+  //       //     src: "/images/projects/project-01/cover-02.jpg",
+  //       //     alt: "Project image",
+  //       //     width: 16,
+  //       //     height: 9,
+  //       //   },
+  //       //   {
+  //       //     src: "/images/projects/project-01/cover-03.jpg",
+  //       //     alt: "Project image",
+  //       //     width: 16,
+  //       //     height: 9,
+  //       //   },
+  //       // ],
+  //     },
+  //     {
+  //       title: "Next.js",
+  //       description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+  //       // optional: leave the array empty if you don't want to display images
+  //       images: [
+  //         {
+  //           src: "/images/projects/project-01/cover-04.jpg",
+  //           alt: "Project image",
+  //           width: 16,
+  //           height: 9,
+  //         },
+  //       ],
+  //     },
+  //   ],
+  // },
+
+  technical: {
+    display: true, // set to false to hide this section
+    title: "Technical skills",
+    skills: [
+      {
+        title: "Flutter",
+        description: (
+          <>
+            Experienced in building cross-platform mobile apps with clean
+            architecture and modern state management tools like GetX and Bloc.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/flutter-app.jpg",
+        //     alt: "Flutter app project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
+        title: "Express.js",
+        description: (
+          <>
+            Developing RESTful APIs and backend services using Express.js with a
+            focus on scalability, performance, and security best practices.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/express-api.jpg",
+        //     alt: "Express API project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
+        title: "Next.js",
+        description: (
+          <>
+            Building production-ready web applications using Next.js, with
+            support for server-side rendering, API routes, and full-stack
+            integration.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/next-app.jpg",
+        //     alt: "Next.js web project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
+        title: "React.js",
+        description: (
+          <>
+            Developing interactive, component-based UIs with React.js—leveraging
+            modern libraries, hooks, and efficient state management strategies.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/react-ui.jpg",
+        //     alt: "React.js UI project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
     ],
   },
@@ -161,36 +312,73 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        title: "Flutter",
+        description: (
+          <>
+            Experienced in building cross-platform mobile apps with clean
+            architecture and modern state management tools like GetX and Bloc.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/flutter-app.jpg",
+        //     alt: "Flutter app project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
+        title: "Express.js",
+        description: (
+          <>
+            Developing RESTful APIs and backend services using Express.js with a
+            focus on scalability, performance, and security best practices.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/express-api.jpg",
+        //     alt: "Express API project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
       {
         title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        description: (
+          <>
+            Building production-ready web applications using Next.js, with
+            support for server-side rendering, API routes, and full-stack
+            integration.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/next-app.jpg",
+        //     alt: "Next.js web project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
+      },
+      {
+        title: "React.js",
+        description: (
+          <>
+            Developing interactive, component-based UIs with React.js—leveraging
+            modern libraries, hooks, and efficient state management strategies.
+          </>
+        ),
+        // images: [
+        //   {
+        //     src: "/images/projects/project-01/react-ui.jpg",
+        //     alt: "React.js UI project",
+        //     width: 16,
+        //     height: 9,
+        //   },
+        // ],
       },
     ],
   },
