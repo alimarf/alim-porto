@@ -92,9 +92,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Software engineer based in Malang, focused on building efficient,
-        scalable, and intuitive digital systems that drive business value and
-        improve user engagement.
+        Results-driven Software Engineer with extensive experience delivering end-to-end mobile and
+web applications across diverse industries. Skilled in designing, developing, and maintaining
+scalable solutions with a focus on clean architecture, performance optimization, and user-
+centric design. Proven ability to collaborate with cross-functional and international teams,
+contributing to projects for both startups and enterprise clients. Adept at leveraging modern
+technologies to build impactful products that enhance business efficiency and customer
+engagement.
       </>
     ),
   },
@@ -104,7 +108,7 @@ const about = {
     experiences: [
       {
         company: "FeedbackASAP, Australia",
-        timeframe: "May 2024 - Present",
+        timeframe: "May 2024 - Sep 2025",
         role: "Mobile Developer",
         achievements: [
           <>
