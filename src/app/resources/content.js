@@ -108,7 +108,7 @@ engagement.
     experiences: [
       {
         company: "FeedbackASAP, Australia",
-        timeframe: "May 2024 - Sep 2025",
+        timeframe: "May 2024 - Sept 2025",
         role: "Mobile Developer",
         achievements: [
           <>
