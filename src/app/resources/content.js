@@ -92,13 +92,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Results-driven Software Engineer with extensive experience delivering end-to-end mobile and
-web applications across diverse industries. Skilled in designing, developing, and maintaining
-scalable solutions with a focus on clean architecture, performance optimization, and user-
-centric design. Proven ability to collaborate with cross-functional and international teams,
-contributing to projects for both startups and enterprise clients. Adept at leveraging modern
-technologies to build impactful products that enhance business efficiency and customer
-engagement.
+       Software Engineer with 5+ years of experience building and delivering production-grade applications across mobile, web, and backend systems. Strong background in Flutter mobile development, complemented by full-stack experience using React, Next.js, and Node.js–based backends. Experienced in designing scalable architectures, integrating REST APIs, working with IoT and smart devices, and collaborating directly with international clients and cross-functional teams. Proven ability to translate business requirements into reliable, maintainable, and user-centric software solutions.
       </>
     ),
   },
@@ -107,14 +101,44 @@ engagement.
     title: "Work Experience",
     experiences: [
       {
+        company: "SEI ASIA, Malaysia",
+        timeframe: "Nov 2025 - Dec 2025",
+        role: "Mobile Developer",
+        achievements: [
+        <>Developed Flutter mobile applications integrating with smart watches and IoT devices</>,
+        <>Implemented communication between mobile apps and smart devices such as smart doors and smart medicine dispensers</>,
+        <>Built real-time device monitoring and control features</>,
+        <>Collaborated with international clients and cross-functional teams to deliver high-quality software solutions</>,
+        <>Translated client requirements into technical solutions in collaboration with backend and hardware teams</>,
+        <>Ensured application stability, performance, and secure device interaction</>,
+        ],
+      },
+      {
+        company: "NVP, Indonesia",
+        timeframe: "Sep 2025 - Nov 2025",
+        role: "Mobile Developer",
+        achievements: [
+          <>Product: Songcry (Music Social Platform)
+          A mobile application combining social media engagement (TikTok-style feed) with music discovery and hosting (Spotify-inspired experience).</>,
+          <>Contributed to the development of Songcry, a music-focused social platform connecting artists and fans</>,
+          <>Built key Flutter UI screens including artist profiles, fan profiles, rankings, badges, and music feeds</>,
+          <>Implemented dynamic content feeds, filtering, and user interaction features</>,
+          <>Worked closely with designers and backend engineers to deliver a polished, production-ready experience</>,
+          <>Focused on performance optimization and smooth animations for media-heavy screens</>,
+          <>Collaborated in an agile team environment to iterate quickly on product features</>,
+
+        ],
+      },
+      {
         company: "FeedbackASAP, Australia",
         timeframe: "May 2024 - Sept 2025",
         role: "Mobile Developer",
         achievements: [
-          <>
-            Develop the 'FeedbackASAP' mobile app in Flutter, utilizing
-            clean architecture, GetX, advanced logging, and data caching
-          </>,
+          <>Developed and delivered a Flutter mobile application from initial concept to production release</>,
+          <>Implemented Clean Architecture and modular code structure to improve scalability and maintainability</>,
+          <>Integrated Firebase services including Push Notifications, Crashlytics, and Analytics</>,
+          <>Collaborated with an international cross-functional team using Agile methodologies</>,
+          <>Delivered a user-friendly interface that improved customer feedback collection efficiency</>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
@@ -127,14 +151,15 @@ engagement.
         ],
       },
       {
-        company: "Roketin, Bandung",
+        company: "Roketin, Indonesia",
         timeframe: "Oct 2022 - Dec 2023",
         role: "Mobile Developer",
         achievements: [
-          <>
-            Develop 2 apps from scratch with my team & maintenance 2
-            apps by myself
-          </>,
+          <>Built 2 complete Flutter mobile applications from scratch in collaboration with the development team</>,
+          <>Maintained and enhanced 2 existing mobile applications, improving performance and stability</>,
+          <>Implemented responsive UI and optimized app performance across multiple devices</>,
+          <>Managed the full development lifecycle including testing, deployment, and post-launch support</>,
+
         ],
         images: [],
       },
@@ -143,10 +168,10 @@ engagement.
         timeframe: "Oct 2021 - Aug 2022",
         role: "Mobile Developer",
         achievements: [
-          <>
-            Develop Dashboard AM/PM apps for telkom & maintenance app
-            Power Pertamina
-          </>,
+          <>Developed Dashboard AM/PM mobile applications for Telkom, serving thousands of enterprise users</>,
+          <>Built a maintenance application for Pertamina Power to improve operational efficiency</>,
+          <>Implemented real-time data visualization and reporting features</>,
+          <>Collaborated closely with backend, QA, and product teams to deliver enterprise-level solutions</>
         ],
         images: [],
       },
@@ -154,7 +179,11 @@ engagement.
         company: "Illiyin Studio, Malang",
         timeframe: "Mar 2021 - Sep 2021",
         role: "Mobile Developer",
-        achievements: [<>Develop & maintaintenance Siginjai Masyarakat app</>],
+        achievements: [
+        <>Developed and maintained the Siginjai Masyarakat community mobile application</>,
+        <>Implemented user engagement features and optimized application performance</>,
+        <>Ensured application stability and resolved production issues in a timely manner</>,
+      ],
         images: [],
       },
       {
@@ -162,10 +191,11 @@ engagement.
         timeframe: "Oct 2019 - Oct 2020",
         role: "Software Engineer",
         achievements: [
-          <>Develop Oree.id business system</>,
-          <>Develop Ngolshop.com</>,
-          <>Develop Web Buildr system E-commerce</>,
-          <>Develop table Menu API</>,
+          <>Developed Oree.id business management system to streamline internal business operations</>,
+          <>Built Ngolshop.com e-commerce platform with end-to-end shopping functionality</>,
+          <>Created a web builder system enabling non-technical users to build online stores</>,
+          <>Developed Table Menu API for restaurant management systems</>,
+          <>Worked with modern web technologies and optimized backend performance</>
         ],
         images: [],
       },
@@ -245,7 +275,7 @@ engagement.
         description: (
           <>
             Experienced in building cross-platform mobile apps with clean
-            architecture and modern state management tools like GetX and Bloc.
+            architecture and modern state management tools like GetX, Bloc, Cubit, Provider & Riverpod.
           </>
         ),
         // images: [
