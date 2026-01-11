@@ -92,7 +92,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-       Software Engineer with 5+ years of experience building and delivering production-grade applications across mobile, web, and backend systems. Strong background in Flutter mobile development, complemented by full-stack experience using React, Next.js, and Node.js–based backends. Experienced in designing scalable architectures, integrating REST APIs, working with IoT and smart devices, and collaborating directly with international clients and cross-functional teams. Proven ability to translate business requirements into reliable, maintainable, and user-centric software solutions.
+      Software Engineer specializing in building and delivering production-grade applications across mobile, web, and backend systems. Strong background in Flutter mobile development, complemented by full-stack experience using React, Next.js, and Node.js–based backends. Experienced in designing scalable architectures, integrating REST APIs, working with IoT and smart devices, and collaborating directly with international clients and cross-functional teams. Proven ability to translate business requirements into reliable, maintainable, and user-centric software solutions.
       </>
     ),
   },
