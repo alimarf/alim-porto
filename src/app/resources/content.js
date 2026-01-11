@@ -105,29 +105,29 @@ const about = {
         timeframe: "Nov 2025 - Dec 2025",
         role: "Mobile Developer",
         achievements: [
-        <>Developed Flutter mobile applications integrating with smart watches and IoT devices</>,
-        <>Implemented communication between mobile apps and smart devices such as smart doors and smart medicine dispensers</>,
-        <>Built real-time device monitoring and control features</>,
-        <>Collaborated with international clients and cross-functional teams to deliver high-quality software solutions</>,
-        <>Translated client requirements into technical solutions in collaboration with backend and hardware teams</>,
-        <>Ensured application stability, performance, and secure device interaction</>,
+          <>Developed Flutter mobile applications integrating with smart watches and IoT devices</>,
+          <>Implemented communication between mobile apps and smart devices such as smart doors and smart medicine dispensers</>,
+          <>Built real-time device monitoring and control features</>,
+          <>Collaborated with international clients and cross-functional teams to deliver high-quality software solutions</>,
+          <>Translated client requirements into technical solutions in collaboration with backend and hardware teams</>,
+          <>Ensured application stability, performance, and secure device interaction</>,
         ],
+        images: [],
       },
       {
         company: "NVP, Indonesia",
         timeframe: "Sep 2025 - Nov 2025",
         role: "Mobile Developer",
         achievements: [
-          <>Product: Songcry (Music Social Platform)
-          A mobile application combining social media engagement (TikTok-style feed) with music discovery and hosting (Spotify-inspired experience).</>,
+          <>Product: Songcry (Music Social Platform) - A mobile application combining social media engagement (TikTok-style feed) with music discovery and hosting (Spotify-inspired experience)</>,
           <>Contributed to the development of Songcry, a music-focused social platform connecting artists and fans</>,
           <>Built key Flutter UI screens including artist profiles, fan profiles, rankings, badges, and music feeds</>,
           <>Implemented dynamic content feeds, filtering, and user interaction features</>,
           <>Worked closely with designers and backend engineers to deliver a polished, production-ready experience</>,
           <>Focused on performance optimization and smooth animations for media-heavy screens</>,
           <>Collaborated in an agile team environment to iterate quickly on product features</>,
-
         ],
+        images: [],
       },
       {
         company: "FeedbackASAP, Australia",
@@ -164,7 +164,7 @@ const about = {
         images: [],
       },
       {
-        company: "PT Digimatika, Malang",
+        company: "PT Digimatika, Indonesia",
         timeframe: "Oct 2021 - Aug 2022",
         role: "Mobile Developer",
         achievements: [
@@ -176,7 +176,7 @@ const about = {
         images: [],
       },
       {
-        company: "Illiyin Studio, Malang",
+        company: "Illiyin Studio, Indonesia",
         timeframe: "Mar 2021 - Sep 2021",
         role: "Mobile Developer",
         achievements: [
@@ -187,7 +187,7 @@ const about = {
         images: [],
       },
       {
-        company: "Pind.ai - Jakarta",
+        company: "Pind.ai, Indonesia",
         timeframe: "Oct 2019 - Oct 2020",
         role: "Software Engineer",
         achievements: [
@@ -271,148 +271,60 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Flutter",
+        title: "Mobile Development",
         description: (
           <>
-            Experienced in building cross-platform mobile apps with clean
-            architecture and modern state management tools like GetX, Bloc, Cubit, Provider & Riverpod.
+            Experienced in Flutter development with expertise in Clean Architecture, MVVM, and MVC patterns.
+            Building cross-platform mobile applications with scalable architecture and maintainable code structure.
           </>
         ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/flutter-app.jpg",
-        //     alt: "Flutter app project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
       {
-        title: "Express.js",
+        title: "Frontend Development",
         description: (
           <>
-            Developing RESTful APIs and backend services using Express.js with a
-            focus on scalability, performance, and security best practices.
+            Proficient in React.js, Next.js, and Vite for building modern web applications. Skilled in JavaScript,
+            TypeScript, HTML5, CSS3, and Tailwind CSS to create responsive and interactive user interfaces.
           </>
         ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/express-api.jpg",
-        //     alt: "Express API project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
       {
-        title: "Next.js",
+        title: "Backend & APIs",
         description: (
           <>
-            Building production-ready web applications using Next.js, with
-            support for server-side rendering, API routes, and full-stack
-            integration.
+            Developing RESTful APIs and backend services using Express.js, Nest.js, and Django. Focused on
+            building scalable, performant, and secure server-side applications with proper architecture patterns.
           </>
         ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/next-app.jpg",
-        //     alt: "Next.js web project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
       {
-        title: "React.js",
+        title: "State Management",
         description: (
           <>
-            Developing interactive, component-based UIs with React.js—leveraging
-            modern libraries, hooks, and efficient state management strategies.
+            Experienced with various state management solutions including Flutter Bloc, Cubit, GetX, Provider, Riverpod for mobile
+            and TanStack Query, Redux Toolkit (RTK), Zustand for web applications. Choosing the right tool
+            for optimal performance and developer experience.
           </>
         ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/react-ui.jpg",
-        //     alt: "React.js UI project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
-      },
-    ],
-  },
-  technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
-    skills: [
-      {
-        title: "Flutter",
-        description: (
-          <>
-            Experienced in building cross-platform mobile apps with clean
-            architecture and modern state management tools like GetX and Bloc.
-          </>
-        ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/flutter-app.jpg",
-        //     alt: "Flutter app project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
       {
-        title: "Express.js",
+        title: "Cloud & Services",
         description: (
           <>
-            Developing RESTful APIs and backend services using Express.js with a
-            focus on scalability, performance, and security best practices.
+            Integrated Firebase services (Push Notifications, Remote Config, Firestore, App Distribution,
+            Crashlytics, Analytics), Supabase, WebEngage, and Sanity CMS. Leveraging cloud services for
+            scalable infrastructure and enhanced application capabilities.
           </>
         ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/express-api.jpg",
-        //     alt: "Express API project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
       {
-        title: "Next.js",
+        title: "Tools & Collaboration",
         description: (
           <>
-            Building production-ready web applications using Next.js, with
-            support for server-side rendering, API routes, and full-stack
-            integration.
+            Proficient with Git for version control, Figma for design collaboration, and Jira with Confluence
+            for project management and team collaboration. Experienced in agile methodologies and cross-functional teamwork.
           </>
         ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/next-app.jpg",
-        //     alt: "Next.js web project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
-      },
-      {
-        title: "React.js",
-        description: (
-          <>
-            Developing interactive, component-based UIs with React.js—leveraging
-            modern libraries, hooks, and efficient state management strategies.
-          </>
-        ),
-        // images: [
-        //   {
-        //     src: "/images/projects/project-01/react-ui.jpg",
-        //     alt: "React.js UI project",
-        //     width: 16,
-        //     height: 9,
-        //   },
-        // ],
       },
     ],
   },
